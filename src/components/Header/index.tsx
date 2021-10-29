@@ -7,8 +7,6 @@ interface HeaderProps{
   OnOpenNewTransationsModal: () => void;
 }
 
-
-
 export function Header({ OnOpenNewTransationsModal } :HeaderProps) {
   return (
     <Container>
